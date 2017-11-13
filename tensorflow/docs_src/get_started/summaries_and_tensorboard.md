@@ -2,6 +2,7 @@
 Tensorflow做的一些计算是复杂和混乱，就像训练深度神经网络一样。为了更易于理解、调试和优化Tensorflow程序，我们发布了一套可视化工具称为Tensorboard。你可以使用TensorBoard形象化Tensorflow图，绘制图像生成的定量指标图以及附加数据。当TensorBoard完全配置后，是这样的：
 
 ![](https://camo.githubusercontent.com/f0f03739a6b2a0e312f929759fab857856b7cf0c/68747470733a2f2f7777772e74656e736f72666c6f772e6f72672f696d616765732f6d6e6973745f74656e736f72626f6172642e706e67)
+
 本教程的目的是让你掌握TensorBoard的简单用法。当然还有更详细的资料， [TensorBoard's GitHub](https://github.com/tensorflow/tensorboard)，包括TensorBoard详细用法，技巧和调试信息。
 ## 数据序列化
 TensorBoard是通过阅读Tensorflow事件文件来操作.Tensorflow事件包含Tensorflow运行所生成的汇总数据。下面是大概的生命周期内TensorBoard汇总数据。
